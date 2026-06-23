@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEST</title>
+    <style>
+ 
+            * {
+                cursor: url("cursor-hover.ico"), auto !important;
+            }
+
+            a:hover,
+            button:hover {
+            cursor: url("cursor-hover.ico"), pointer;
+            }
+
+        body {
+           background-image: url("backgroundpest.png");
+           background-repeat:no-repeat; 
+           background-attachment: fixed;
+           background-position: center; 
+           background-size: cover; 
+        }
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+                .contenedor {
+            width: 1024px;
+            height: auto; 
+            border: 2px solid black;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: 724px 300px; 
+            grid-template-rows: 90px 50px 568px 60px;
+            background-color: rgb(28, 14, 58);
+        }
+
+                .header {
+            grid-column: span 2;
+            background-image: linear-gradient(#ff64f2, #722ca8);
+        }
+    
+                .cancionero-titulo {
+            color: rgb(255, 255, 255); 
+            font-size: 40px;  
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+                .nav {
+            grid-column: span 2;
+            background-color: #FFFF00ff;
+            
+        }
+
+                .nav ul {
+            list-style: none;
+            display: flex;          
+            gap: 15px;              
+        }
+
+                .nav a {
+            display: block;
+            background-color: #52019Cff;
+            text-decoration: wavy;
+            text-align: center;
+            color: white;
+            width: 180px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 5px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 13px;
+            
+            }
+
+                    .nav a:hover {
+            background-color: rgb(234, 0, 255);
+        }
+
+                .section {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 14px;
+            font-size: 17px;
+            font-weight: normal;
+            font-family: monospace;
+        }
+
+                .section h2 {
+            font-weight: bold;
+            font-size: 30px;
+            color: #734C90;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+
+                .section audio{
+            display:block;
+             margin-top:0px;
+            margin-bottom:0px;
+        }
+
+                .scroll-box{
+            margin-top: 10px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            color:aliceblue;
+                }
+
+        .section h3 {
+            font-weight: bold;
+            font-size: 20px;
+            color: #52019Cff;
+            margin-bottom: 10px;        
+
+        }
+
+                .section h3{
+            margin-top: 20px;
+        }
+
+                .section ul{
+            margin-left: 20px;
+        }
+
+                .aside {
+            background-color: #FFFF00ff;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 30px 20px;
+            font-size: 16px;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+      }
+
+        
+                .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            color: #290070;
+            font-family: monospace;
+            border: 1px solid #333;
+        }
+
+                .bloque-info strong{
+            display: block;
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+
+        .footer{
+        grid-column: span 2;
+        color: rgb(255, 255, 255);
+        background-image: linear-gradient(#ff64f2, #722ca8);
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+        }
+
+        .contact-item,
+        .socials {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+    </style>
+
+    </head> 
+<body>
+ 
+<div class="contenedor">
+        
+<div class="box header"> 
+ <span class="cancionero-titulo">CANCIONERO</span> 
+</div>
+ <div class="box nav"> 
+ <nav>
+<ul>
+ <li><a href="index.html">MENU</a></li>
+ <li><a href="playdead.html">PLAY DEAD! PLAY DEAD!</a></li>
+<li><a href="heretic.html">The Heretic(Woe is Me)</a></li>
+<li><a href="survivors.html">Survivor's Guilt</a></li>
+<li><a href="monster.html">Bit of a Monster</a></li>
+</ul>
+</nav> </div>
+<div class="section" style="border: 1px solid #333;">
+<h2>Pest</h2>
+    <audio controls>
+    <source src="Pestvylet.mp3" type="audio/mpeg">
+    </audio>
+
+<div class="scroll-box">
+<p><b>[Verso 1]</b></p>
+<p>Maybe I'm overthinking</p>
+<p>you didn't try your best</p> 
+<p>The voices you wielded</p>
+<p>Turned you into a pest</p> 
+<p>Suffocating each moment</p>
+<p>Killing her slowly</p>
+<p>How long did it take?</p> 
+<p>Were you ever so worthy?</p>
+<p>Your scarlet wrists</p>
+<p>Twinkle as they clot</p>
+<p>A paltry payment</p>
+<p>For the malice you sought</p>
+<br>
+<p><b>[Coro]</b></p>
+<p>You've been such a pest</p>
+<p>Oh, you're such a pest</p>
+<p>Yes, you're only a pest</p>
+<p>Moved your mountains over pins and needles</p>
+<p>so saintly, your sinister evil</p> 
+<p>Such a pest</p>
+<P>Oh, you're such a pest</P>
+<p>Yes, you're only a pest</p>
+<p>May you never once sleep with the price on your head</p>
+<p>The knife you had brandished won't wait till you're dead</p>
+<br>
+<p><b>[Verso 2]</b></p>
+<p>Oh it's nothing</p>
+<p>It's only borrowed time</p>
+<p>When I see you smile</p>
+<p>I think that I might die</p>
+<p>And I know that you're still me</p>
+<p>But look what's happened to us</p>
+<p>If only you were never born</p>
+<p>Would your friends still spill their guts?</p>
+<p>Should I play into the stereotype I made of myself?</p>
+<p>Or is a moment in time what I'm doomed?</p>
+<p>What's the point of saving the world or yourself</p>
+<p>When the greatest villain is you?</p>
+<p>*Wolf howls*</p>
+<br>
+<p><b>[Solo de Guitarra]</b></p>
+<br>
+<p><b>[Puente]</b></p>
+<p>How tragic it is to know I'm you</p>
+<p>Cursed are all who know us too</p>
+<p>I just can't stand</p>
+<p>To see your smile</p>
+<br>
+<p><b>[Puente]</b></p>
+<p>You've been such a pest</p>
+<p>Oh, you're such a pest</p>
+<p>Yes, you're only a pest</p>
+<p>Moved your mountains over pins and needles</p>
+<p>so saintly, your sinister evil</p> 
+<p>Such a pest</p>
+<P>Oh, you're such a pest</P>
+<p>Yes, you're only a pest</p>
+<p>And our life isn't sacred, you stupid fag</p>
+<p>They'll all keep on laughing 'til we're in a bag</p>
+<br>
+<p><b>[Outro]</b></p>
+<p>Yes, "They" were the very same</p>
+<p>"Wolf then. And Wolf now"</p>
+<p>She staggered back from her mirror</p>
+<p>Eyes red as the moon</p>
+<p>"They" could not be estranged</p>
+<p>And so, Wolf cried</p>
+</div>
+
+</div>
+<div class="box aside">
+<div class="bloque-info">
+<img src="coverpest.png">
+</div>
+</div>    
+<div class="box footer">
+
+    <div class="contact-item">
+        <img src="icon-chat.png" class="icon">
+        <span>vyl3tp0ny@gmail.com</span>
+    </div>
+
+    <div class="socials">
+        <img src="icon-disc.png" class="icon">
+        <img src="icon-yt.png" class="icon">
+        <img src="icon-inst.png" class="icon">
+    </div>
+
+</div>
+
+</body>
+</html>

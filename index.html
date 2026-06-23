@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUKEBOX</title>
+    <style>
+
+            * {
+                cursor: url("cursor-hover.ico"), auto !important;
+            }
+
+            a:hover,
+            button:hover {
+            cursor: url("cursor-hover.ico"), pointer;
+            }
+
+        body {
+           background-image: url("background.png");
+           background-repeat:no-repeat; 
+           background-attachment: fixed;
+           background-position: center; 
+           background-size: cover; 
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+                .contenedor {
+            width: 1024px;
+            height: auto; 
+            border: 2px solid black;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: 724px 300px; 
+            grid-template-rows: 90px 50px 568px 60px;
+            background-color: aliceblue;
+        }
+
+                .header {
+            grid-column: span 2;
+            background-image: linear-gradient(#ff64f2, #722ca8);
+        }
+    
+                .cancionero-titulo {
+            color: rgb(255, 255, 255); 
+            font-size: 40px;  
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+                .nav {
+            grid-column: span 2;
+            background-color: #FFFF00ff;
+            
+        }
+
+                .nav ul {
+            list-style: none;
+            display: flex;          
+            gap: 15px;              
+        }
+
+                .nav a {
+            display: block;
+            background-color: #52019Cff;
+            text-decoration: wavy;
+            text-align: center;
+            color: white;
+            width: 180px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 5px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 13px;
+            
+            }
+
+                    .nav a:hover {
+            background-color: rgb(234, 0, 255);
+        }
+
+                .section {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 14px;
+            font-size: 17px;
+            font-weight: normal;
+            font-family: monospace;
+        }
+
+                .section h2 {
+            font-weight: bold;
+            font-size: 30px;
+            color: #52019Cff;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+
+        .section h3 {
+            font-weight: bold;
+            font-size: 20px;
+            color: #52019Cff;
+            margin-bottom: 5px;        
+
+        }
+
+                .section h3{
+            margin-top: 5px;
+        }
+
+                .section ul{
+            margin-left: 20px;
+        }
+
+                .aside {
+            background-color: #FFFF00ff;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 30px 20px;
+            font-size: 16px;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+      }
+
+        
+                .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            color: #290070;
+            font-family: monospace;
+            border: 1px solid #333;
+        }
+
+                .bloque-info strong{
+            display: block;
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+
+                .icon {
+            width: 32px;
+            height: 32px;
+        }
+
+.footer{
+        grid-column: span 2;
+        color: rgb(255, 255, 255);
+        background-image: linear-gradient(#ff64f2, #722ca8);
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+        }
+
+        .contact-item,
+        .socials {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }     
+
+    </style>
+
+    </head> 
+<body>
+
+<div class="contenedor">
+        
+<div class="box header"> 
+ <span class="cancionero-titulo">CANCIONERO</span> 
+</div>
+ <div class="box nav"> 
+ <nav>
+<ul>
+ <li><a href="pest.html">Pest</a></li>
+ <li><a href="playdead.html">PLAY DEAD! PLAY DEAD!</a></li>
+<li><a href="heretic.html">The Heretic(Woe is Me)</a></li>
+<li><a href="survivors.html">Survivor's Guilt</a></li>
+<li><a href="monster.html">Bit of a Monster</a></li>
+</ul>
+</nav> </div>
+<div class="section" style="border: 1px solid #333;">
+<h2>VYLET PONY</h2>
+<br>
+<p><b>Vylet Pony</b> (el proyecto musical de la artista de Portland, <b>Zelda Trixie Lulamoon</b>) es una música muy prolífica y multigénero, 
+conocida principalmente por producir art pop, EDM y rock progresivo inspirados en el univero de <b>My Litte Pony: Friendship is Magic.</b></p>
+<br>
+ <p>Como mujer trans no binaria, su trabajo a menudo explora temas de autodescubrimiento, identidad queer y desafío a la cultura cringe (por ejemplo, su exitoso
+tema de <b>ANTONYPMH)</b></p>
+<br>
+ <p>Comenzó en 2012 dentro la escena musical brony/MLP y desde entonces ha ganado reconocimiento general por su estilo sumamente ecléctico</p>
+ <br>
+ <p>A lo largo de los años, su catálogo, se ha expandido hasta convertirse en una discografía diversa y ambiciosa que abarca desde noise rock hasta música ambiental
+y pop orquestal</p>
+<br>
+<h3>ALBUMS</h3>
+<ul>
+<br>
+<li>Gonarch's Lair</li>
+<li>Love & Ponystep</li>
+<li>MONARCH OF MONSTERS</li>
+<li>Girls Who Are Wizards</li>
+<li>I Was The Loner of Paradise Valley</li>
+</ul>
+</div>
+<div class="box aside">
+<div class="bloque-info">
+<img src="cover2.png">
+</div>
+</div>
+<div class="box footer">
+
+    <div class="contact-item">
+        <img src="icon-chat.png" class="icon">
+        <span>vyl3tp0ny@gmail.com</span>
+    </div>
+
+    <div class="socials">
+        <img src="icon-disc.png" class="icon">
+        <img src="icon-yt.png" class="icon">
+        <img src="icon-inst.png" class="icon">
+    </div>
+
+</div>
+
+</body>
+</html>
